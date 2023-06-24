@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    position: relative;
+    
+  }
+  
+  .logo a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .burger {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .burger div {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .nav-links {
+display: inline-block;
+    }
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .carousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.4s ease-in-out;
+    height: 100%;
+  }
+  
+  .carousel-item {
+    flex: 0 0 100%;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .carousel-control.prev {
+    left: 10px;
+  }
+  
+  .carousel-control.next {
+    right: 10px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .carousel {
+      height: 400px;
+    }
+  }
+  
+
+
+
+  .card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 25px 25px;
+    display: inline-block;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 30px;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    color: #666;
+  }
+  
+  .card-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card-btn:hover {
+    background-color: #0056b3;
+  }
+
+            
+/* About Css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+
+
+
+    /* Reset some default styles */
+    body, html {
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* Main container styles */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    /* Service section styles */
+    .service-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 50px;
+    }
+    
+    .service {
+      width: 300px;
+      margin: 20px;
+      padding: 20px;
+      text-align: center;
+      background-color: #f1f1f1;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .service h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    
+    .service p {
+      font-size: 16px;
+      color: #555;
+    }
+    
+    /* Responsive styles */
+    @media screen and (max-width: 600px) {
+      .service {
+        width: 100%;
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       /* Reset some default styles */
+       body, html {
+        margin: 0;
+        padding: 0;
+      }
+      
+      /* Main container styles */
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      
+      /* Contact section styles */
+      .contact-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 50px;
+      }
+      
+      .contact-form {
+        width: 400px;
+        margin: 20px;
+        padding: 20px;
+        background-color: #f1f1f1;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      
+      .contact-form h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+      
+      .contact-form input[type="text"],
+      .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      
+      .contact-form textarea {
+        height: 120px;
+      }
+      
+      .contact-form input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      
+      /* Responsive styles */
+      @media screen and (max-width: 600px) {
+        .contact-form {
+          width: 100%;
+        }
+      }
